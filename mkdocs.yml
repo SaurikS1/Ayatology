@@ -6,6 +6,10 @@ repo_url: https://github.com/SaurikS1/Ayatology
 theme:
   name: material
   features:
+  custom_dir: overrides
+  hide:
+    - footer
+  features:
     - navigation.instant
     - navigation.tracking
     - navigation.sections
