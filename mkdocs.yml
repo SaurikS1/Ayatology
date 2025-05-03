@@ -1,0 +1,79 @@
+site_name: Scientific Quran Evidence
+site_url: https://SaurikS1.github.io/Ayatology
+repo_name: SaurikS1/Ayatology
+repo_url: https://github.com/SaurikS1/Ayatology
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Plugins
+plugins:
+  - search
+  - mike:
+      version_selector: true
+      canonical_version: latest
+
+# Extensions
+markdown_extensions:
+  - meta
+  - tables
+  - fenced_code
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+# Extra configuration
+extra:
+  analytics:
+    provider: google
+    property: G-PLACEHOLDER
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SaurikS1/Ayatology
+
+nav:
+  - Home: index.md
+  - Scientific Evidence:
+    - Cosmology: scientific-evidence/cosmology.md
+    - Embryology: scientific-evidence/embryology.md
+    - Geology: scientific-evidence/geology.md
