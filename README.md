@@ -1,6 +1,5 @@
 # Scientific Quran Evidence
 
-[![Documentation Status](https://github.com/SaurikS1/Ayatology/actions/workflows/deploy.yml/badge.svg)](https://sauriks1.github.io/Ayatology/)
 
 A modern documentation project exploring scientific phenomena mentioned in the Quran and their correlation with modern scientific discoveries.
 
@@ -9,7 +8,7 @@ A modern documentation project exploring scientific phenomena mentioned in the Q
 
 ## 🌐 Website
 
-Visit our documentation at: [https://sauriks1.github.io/Ayatology/](https://sauriks1.github.io/Ayatology/)
+Visit our documentation at: [https://ayatology.example.com](https://ayatology.example.com)
 
 ## 📚 Topics Covered
 
@@ -30,7 +29,7 @@ We welcome contributions from researchers, scholars, and anyone interested in ex
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SaurikS1/Ayatology.git
+   git clone https://example.com/Ayatology.git
    ```
 
 2. Install dependencies:
