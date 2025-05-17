@@ -14,4 +14,4 @@ This documentation is organized into several key areas:
 
 Navigate through the sections using the sidebar to explore specific topics. Each section provides detailed analysis supported by scientific references and Quranic verses.
 
-For suggestions or contributions, please visit our [GitHub repository](https://github.com/SaurikS1/Ayatology).
+We welcome suggestions and contributions—feel free to reach out to the team.

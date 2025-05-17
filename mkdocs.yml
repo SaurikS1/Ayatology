@@ -1,7 +1,5 @@
 site_name: Scientific Quran Evidence
-site_url: https://SaurikS1.github.io/Ayatology
-repo_name: SaurikS1/Ayatology
-repo_url: https://github.com/SaurikS1/Ayatology
+site_url: https://ayatology.example.com
 
 theme:
   name: material
@@ -71,9 +69,6 @@ extra:
     property: G-PLACEHOLDER
   version:
     provider: mike
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/SaurikS1/Ayatology
 
 nav:
   - Home: index.md
