@@ -2,7 +2,10 @@
 
 [![Documentation Status](https://github.com/SaurikS1/Ayatology/actions/workflows/deploy.yml/badge.svg)](https://sauriks1.github.io/Ayatology/)
 
-A comprehensive documentation project exploring scientific phenomena mentioned in the Quran and their correlation with modern scientific discoveries.
+A modern documentation project exploring scientific phenomena mentioned in the Quran and their correlation with modern scientific discoveries.
+
+> **Welcome to Ayatology &mdash; your gateway to understanding the synergy between Quranic wisdom and contemporary science.** 🚀
+
 
 ## 🌐 Website
 

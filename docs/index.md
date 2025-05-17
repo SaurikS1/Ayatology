@@ -1,6 +1,6 @@
 # Scientific Quran Evidence
 
-Welcome to the Scientific Quran Evidence documentation. This site provides a comprehensive analysis of scientific phenomena mentioned in the Quran and their correlation with modern scientific discoveries.
+**Welcome to Ayatology!** Dive into a modern exploration of Quranic wisdom and cutting-edge science. This site offers comprehensive analyses of scientific phenomena mentioned in the Quran and their correlation with contemporary discoveries.
 
 ## Overview
 
