@@ -63,6 +63,39 @@
     
     
     
+  
+  <style>
+    #welcome-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    #welcome-modal {
+      background: var(--md-default-bg-color);
+      color: var(--md-default-fg-color);
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      max-width: 90%;
+    }
+
+    #welcome-modal button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: var(--md-primary-fg-color);
+      color: var(--md-primary-bg-color);
+      border: none;
+      border-radius: 0.25rem;
+      cursor: pointer;
+    }
+  </style>
+
   </head>
   
   
@@ -532,6 +565,14 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
+  <div id="welcome-backdrop">
+    <div id="welcome-modal">
+      <h2>Welcome to Ayatology</h2>
+      <p>Thanks for stepping into the future of Quranic discovery. Enjoy your stay!</p>
+      <button onclick="closeWelcome()">Enter</button>
+    </div>
+  </div>
+  
                   
 
   
@@ -568,6 +609,7 @@
 
 
                 
+
               </article>
             </div>
           
@@ -593,8 +635,23 @@
     <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
+  
       <script src="../../assets/javascripts/bundle.e1c3ead8.min.js"></script>
       
     
+  <script>
+    function closeWelcome() {
+      const backdrop = document.getElementById('welcome-backdrop');
+      backdrop.style.display = 'none';
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+      const backdrop = document.getElementById('welcome-backdrop');
+      if (!sessionStorage.getItem('welcomed')) {
+        backdrop.style.display = 'flex';
+        sessionStorage.setItem('welcomed', 'true');
+      }
+    });
+  </script>
+
   </body>
 </html>
