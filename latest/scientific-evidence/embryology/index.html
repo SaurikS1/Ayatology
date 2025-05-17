@@ -647,10 +647,7 @@
     }
     document.addEventListener('DOMContentLoaded', () => {
       const backdrop = document.getElementById('welcome-backdrop');
-      if (!sessionStorage.getItem('welcomed')) {
-        backdrop.style.display = 'flex';
-        sessionStorage.setItem('welcomed', 'true');
-      }
+      backdrop.style.display = 'flex';
     });
   </script>
 
